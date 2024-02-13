@@ -19,17 +19,16 @@ This project is a system for generating a game world in Unity using noise textur
 - Contains data about the block type, its texture, sound effects, and other characteristics.
 
 ## World Generation Process:
-![](https://img001.prntscr.com/file/img001/LnNaSciWSW2c-3WOi-ROAw.png)
-![](https://prnt.sc/3RiPQaHbuJV4)
-![](https://prnt.sc/Q1vY45e2wtWZ)
+![Image 1](https://img001.prntscr.com/file/img001/LnNaSciWSW2c-3WOi-ROAw.png) ![Image 2](https://img001.prntscr.com/file/img001/4CBywu6TQBGhSdUAnp9FnA.png) ![Image 3](https://img001.prntscr.com/file/img001/N7Es3selTu-hiw2VPUwHdw.png)
+
 
 ### Loading Noise Texture:
-![](https://prnt.sc/kGEytHfDTbej)
+![](https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png)
 - The project starts by loading a noise texture, which will be used for world generation.
 - This texture determines the height of each point in the world.
 
 ### Defining Biomes:
-![](https://prnt.sc/PwTmjxDJHoZ5)
+![](https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png)
 - Users define different biomes in the TerrainGenerator object inspector.
 - Each biome is represented by a unique color, primary block type, and additional parameters such as object types for spawning.
 
