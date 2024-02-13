@@ -27,14 +27,14 @@ This project is a system for generating a game world in Unity using noise textur
 
 ### Loading Noise Texture:
 <p align="center">
-  <img src="https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png" width="800" />
+  <img src="https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png" width="400" />
 </p>
 - The project starts by loading a noise texture, which will be used for world generation.
 - This texture determines the height of each point in the world.
 
 ### Defining Biomes:
 <p align="center">
-  <img src="https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png" width="800" />
+  <img src="https://img001.prntscr.com/file/img001/gO_5PNtyR8yZBKVNdtBJ8A.png" width="400" />
 </p>
 
 - Users define different biomes in the TerrainGenerator object inspector.
