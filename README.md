@@ -43,6 +43,13 @@ This project is a system for generating a game world in Unity using noise textur
 ### Processing Each World Point:
 - The TerrainGenerator script iterates through each point in the world and uses the noise texture to determine its height.
 - It then determines the biome color of that point and selects the block type based on this information.
+- 
+## Mesh Saving System:
+The project includes a mesh saving system responsible for saving generated terrain meshes into prefabs. 
+This system allows users to preserve the generated terrain and reuse it in their game scenes.
+Upon generating the terrain, the system automatically saves the mesh data into a prefab for each chunk. 
+Users can then instantiate these prefabs in their game scenes, providing a seamless integration
+of the generated terrain into their game environment.
 
 ### Object Spawning:
 - For each world point representing a vertex, TerrainGenerator determines if any objects should be spawned.
