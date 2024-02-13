@@ -9,6 +9,8 @@ This project is a system for generating a game world in Unity using noise textur
 - Utilizes a noise texture to determine the height of each point in the world.
 - Iterates through each point in the world and selects the block type based on its height and biome color.
 - Identifies locations for spawning objects in the world based on the biome and other factors.
+- ChunkRenderer class is responsible for rendering chunks of terrain in the game world. To optimize rendering performance and reduce unnecessary vertices, the GenerateBlock method checks for neighboring blocks and generates only the visible sides of each block. By doing so, it ensures that only the visible surfaces are rendered, resulting in efficient rendering and improved performance.
+
 
 ### BlockDataBase:
 - Represents the block database used to store information about various types of blocks in the game.
