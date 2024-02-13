@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b57e573aadb4579981e34e8ae147562, type: 3}
+  m_Name: SnowStone
+  m_EditorClassIdentifier: 
+  Type: 8
+  PixelOffset: {x: 768, y: 512}
+  AudioClip: {fileID: 8300000, guid: d9da9138341dcd240aa98cb740c4cc67, type: 3}
+  PixelOffsetUp: {x: 512, y: 768}
+  PixelOffsetDown: {x: 768, y: 768}
