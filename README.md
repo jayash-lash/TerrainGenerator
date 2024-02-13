@@ -20,20 +20,23 @@ This project is a system for generating a game world in Unity using noise textur
 
 ## World Generation Process:
 <p align="center">
-  <img src="https://img001.prntscr.com/file/img001/LnNaSciWSW2c-3WOi-ROAw.png" width="200" />
-  <img src="https://img001.prntscr.com/file/img001/4CBywu6TQBGhSdUAnp9FnA.png" width="200" /> 
-  <img src="https://img001.prntscr.com/file/img001/N7Es3selTu-hiw2VPUwHdw.png" width="200" />
+  <img src="https://img001.prntscr.com/file/img001/LnNaSciWSW2c-3WOi-ROAw.png" width="600" />
+  <img src="https://img001.prntscr.com/file/img001/4CBywu6TQBGhSdUAnp9FnA.png" width="600" /> 
+  <img src="https://img001.prntscr.com/file/img001/N7Es3selTu-hiw2VPUwHdw.png" width="600" />
 </p>
 
-
-
 ### Loading Noise Texture:
-![](https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png)
+<p align="center">
+  <img src="https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png" width="800" />
+</p>
 - The project starts by loading a noise texture, which will be used for world generation.
 - This texture determines the height of each point in the world.
 
 ### Defining Biomes:
-![](https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png)
+<p align="center">
+  <img src="https://img001.prntscr.com/file/img001/VbvnLzQJTb-s-31Web1KDQ.png" width="800" />
+</p>
+
 - Users define different biomes in the TerrainGenerator object inspector.
 - Each biome is represented by a unique color, primary block type, and additional parameters such as object types for spawning.
 
