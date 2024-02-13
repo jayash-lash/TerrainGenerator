@@ -19,7 +19,7 @@ This project is a system for generating a game world in Unity using noise textur
 - Contains data about the block type, its texture, sound effects, and other characteristics.
 
 ## World Generation Process:
-![](https://prnt.sc/gxZ9uADssizi)
+![](https://img001.prntscr.com/file/img001/LnNaSciWSW2c-3WOi-ROAw.png)
 ![](https://prnt.sc/3RiPQaHbuJV4)
 ![](https://prnt.sc/Q1vY45e2wtWZ)
 
